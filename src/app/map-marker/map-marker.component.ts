@@ -13,7 +13,7 @@ export class MapMarkerComponent implements OnInit {
   }
   center: google.maps.LatLngLiteral = {lat: 24, lng: 12};
   zoom = 4;
-  markerOptions: google.maps.MarkerOptions = {draggable: false};
+  markerOptions: google.maps.MarkerOptions = {draggable: true};
   markerPositions: google.maps.LatLngLiteral[] = [];
 
   addMarker(event: google.maps.MapMouseEvent) {
