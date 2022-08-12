@@ -9,11 +9,13 @@ import {MatInputModule} from '@angular/material/input';
 import { AppComponent } from './app.component';
 import { GoogleMapComponent } from './google-map/google-map.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MapMarkerComponent } from './map-marker/map-marker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    MapMarkerComponent
   ],
   imports: [
     BrowserModule,
