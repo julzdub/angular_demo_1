@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { BrowserModule } from '@angular/platform-browser';
-import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-
 
 
 import { AppComponent } from './app.component';
@@ -21,7 +20,7 @@ import { MapMarkerComponent } from './map-marker/map-marker.component';
     BrowserModule,
     GoogleMapsModule,
     BrowserAnimationsModule,
-    MatAutocompleteModule,
+    MatFormFieldModule,
     MatInputModule
   ],
   providers: [],
